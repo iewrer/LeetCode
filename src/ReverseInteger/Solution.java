@@ -1,14 +1,15 @@
 package ReverseInteger;
 
 import javax.management.relation.Relation;
-//转换为字符串进行处理
-//应该也可以使用求余数的办法来实现
-//注意：
-//1.正负号处理
-//2.以0为结尾的数字颠倒后如何处理
-//3.数组下标越界
-//4.int溢出
+
 public class Solution {
+	//转换为字符串进行处理
+	//应该也可以使用求余数的办法来实现
+	//注意：
+	//1.正负号处理
+	//2.以0为结尾的数字颠倒后如何处理
+	//3.数组下标越界
+	//4.int溢出
     public int reverse(int x) {
         // IMPORTANT: Please reset any member data you declared, as
         // the same Solution instance will be reused for each test case.
